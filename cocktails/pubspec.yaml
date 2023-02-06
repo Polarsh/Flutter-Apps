@@ -1,6 +1,6 @@
 name: cocktails
 description: A new Flutter project.
-publish_to: 'none' 
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -10,22 +10,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  http: ^0.13.5
 
 dev_dependencies:
+
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
-
 flutter:
   uses-material-design: true
-
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
-
   # fonts:
   #   - family: Schyler
   #     fonts:

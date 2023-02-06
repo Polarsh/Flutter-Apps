@@ -1,3 +1,6 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:cocktails/ui/tabs.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -8,15 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Cocktail App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Cocktail App Bar'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      theme: ThemeData.dark(),
+      home: TabsPage(),
     );
   }
 }
