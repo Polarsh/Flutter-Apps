@@ -14,19 +14,20 @@ A mobile application to view drinks and recipes obtained through the CocktailDB 
 
 ### Installing
 
-* Download APK from [APK Folder](/apk/)
+* Download APK from [APK Folder](https://github.com/Polarsh/Flutter-Apps/tree/main/cocktails/apk)
 * Install on your phone
 
 ### Screenshots
 
-* [Screenshots Folder](/screenshots/)
+* [Screenshots Folder](https://github.com/Polarsh/Flutter-Apps/tree/main/cocktails/screenshots)
 
+<div>
 <img width="360" alt="Category Page" src= "screenshots\category_page.png">
 <img width="360" alt="Search page" src= "screenshots\search_page.png">
 <img width="360" alt="Ingredient Page" src= "screenshots\ingredients_page.png">
-<div>
 <img width="360" alt="Cocktail Page" src= "screenshots\cocktails_page.png">
 <img width="360" alt="Cocktail Detail" src= "screenshots\cocktail_detail.png">
+<div>
 
 ## Acknowledgments
 
